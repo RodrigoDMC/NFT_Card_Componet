@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+
+    width: 45vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+main img {
+    width: 85%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 7.5% 7.5% 0 7.5%;
+}
+main h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5% 0 0 7.5%;
+}
+main p {
+    margin: 5% 0 0 7.5%;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+main #icon-ethereum {
+    width: 12px;
+    margin: 10% 8px auto 7.5%;
+}
+main #txt-ethereum {
+    color: hsl(178, 100%, 50%);
+    font-weight: 500;
+    margin: 9.5% 15% 9.5% 0;
+}
+
+main #icon-clock {
+    width: 20px;
+    height: 20px;
+    margin: 10% 8px auto 7.5%;
+}
+main #txt-clock {
+    margin: 9.4% 8px auto 0;
+}
+
+main hr {
+    width: 85%;
+    color: hsl(215, 51%, 70%);
+}
